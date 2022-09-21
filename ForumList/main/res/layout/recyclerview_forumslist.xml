@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp">
 
     <TextView
-        android:id="@+id/textViewC_ForumName"
+        android:id="@+id/textViewForumName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -17,61 +16,39 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewC_ForumUserName"
+        android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="Name"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewC_ForumName" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textViewForumName" />
     <TextView
-        android:id="@+id/textViewC_ForumDetail"
+        android:id="@+id/textViewDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Detail"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewC_ForumUserName" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
 
     <TextView
-        android:id="@+id/textViewC_ForumDateTime"
+        android:id="@+id/textViewDateTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:text="DateTime"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/textViewLikes"
-        app:layout_constraintTop_toBottomOf="@id/textViewC_ForumDetail" />
-
-    <ImageView
-        android:id="@+id/imageViewCmntTrash"
-        android:layout_width="38dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="48dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageViewLike"
-        android:layout_marginRight="10dp"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textViewLikes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:text="Likes"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/textViewC_ForumDateTime"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewC_ForumDetail" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewDetail" />
+
 
     <ImageView
-        android:id="@+id/imageViewLike"
+        android:id="@+id/imageViewTrash"
         android:layout_width="38dp"
         android:layout_height="45dp"
-        android:layout_marginTop="48dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
