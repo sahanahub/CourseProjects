@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InClass05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_app_name">App Name</string>
+    <string name="label_artist_name">Artist Name</string>
+    <string name="label_released_date">Release Date</string>
+    <string name="label_app_categories_title">App Categories</string>
+    <string name="label_app_details_title">App Details</string>
+    <string name="label_welcome">Welcome</string>
+    <string name="label_genre">Genres</string>
+    <string name="label_app_list_tag">AppList</string>
+    <string name="label_app_category_tag">AppCategory</string>
+    <string name="label_app_details_tag">AppDetails</string>
+</resources>
