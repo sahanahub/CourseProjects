@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Homework04</string>
+
+    <string name="label_btn_filter">Filter</string>
+    <string name="label_btn_sort">Sort</string>
+    <string name="label_tv_name">Name</string>
+    <string name="label_tv_age">Age</string>
+    <string name="label_tv_state">State</string>
+    <string name="label_tv_group">Group</string>
+    <string name="label_tv_sort">Sort Title</string>
+    <string name="label_tag_users_fragment">Users</string>
+    <string name="label_tag_filter_fragment">Filter By State</string>
+    <string name="label_tag_sort_fragment">Sort</string>
+    <string name="label_all_states">All States</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+</resources>

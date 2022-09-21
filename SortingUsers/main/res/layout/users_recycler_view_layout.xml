@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+
+    <ImageView
+        android:id="@+id/imageViewUserIcon"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:src="@drawable/avatar_female"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_tv_name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUserState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/label_tv_state"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserName" />
+
+    <TextView
+        android:id="@+id/textViewUserAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/label_tv_age"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserState" />
+
+    <TextView
+        android:id="@+id/textViewUserGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/label_tv_group"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserAge" />
+</androidx.constraintlayout.widget.ConstraintLayout>
