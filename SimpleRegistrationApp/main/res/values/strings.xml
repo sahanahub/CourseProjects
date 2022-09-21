@@ -1,30 +1,35 @@
 <resources>
-    <string name="app_name">InClass03</string>
-    <string name="msgWelcome">Welcome!!</string>
-    <string name="tvName">Name:</string>
-    <string name="tvEmail">Email:</string>
-    <string name="tvID">ID:</string>
-    <string name="nameHint">Enter Name</string>
-    <string name="emailHint">Enter Email</string>
-    <string name="idHint">Enter ID</string>
-    <string name="tvDept">Dept:</string>
-    <string name="btnDept">Select</string>
-    <string name="btnWelcome">Register</string>
-    <string name="rbCS">Computer Science</string>
-    <string name="rbSis">Software Info. Systems</string>
-    <string name="rbBio">Bio Informatics</string>
-    <string name="rbDS">Data Science</string>
-    <string name="btnDeptSelect">Select</string>
-    <string name="btnDeptCancel">Cancel</string>
-    <string name="btnRegSubmit">Submit</string>
-    <string name="regErrorMain">Please Enter All the Data</string>
-    <string name="regErrorName">Please Enter Name</string>
-    <string name="regErrorEmail">Please Enter Email</string>
-    <string name="regErrorId">Please Enter ID</string>
-    <string name="regErrorDept">Please Select Department</string>
-    <string name="regErrorCancel">Department Not Selected</string>
-    <string name="KEY_DEPT">DeptResult</string>
-    <string name="KEY_USER">UserObj</string>
-    <string name="regErrorEmailValid">Please Enter Email Valid</string>
+    <string name="app_name">InClass04</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_login_fragment_title">Login</string>
+    <string name="label_account_fragment_title">Account</string>
+    <string name="label_register_fragment_title">Register Account</string>
+    <string name="label_update_fragment_title">Update Account</string>
+    <string name="label_button_submit">Submit</string>
+    <string name="label_button_cancel">Cancel</string>
+    <string name="label_etEmail">Email</string>
+    <string name="label_etPassword">Password</string>
+    <string name="label_btnLogin">Login</string>
+    <string name="label_btnCreateAccount">Create New Account</string>
+    <string name="label_btnEditProfile">Edit Profile</string>
+    <string name="label_btnLogOut">Log Out</string>
+    <string name="label_tvWelcome">Welcome !!</string>
+    <string name="label_tvAccountName">Name</string>
+    <string name="label_btnUpdateSubmit">Submit</string>
+    <string name="label_btnUpdateCancel">Cancel</string>
+    <string name="label_tagLoginFragment">Login_Fragment</string>
+    <string name="label_tagUpdateFragment">Update_Fragment</string>
+    <string name="label_tagAccountFragment">Account_Fragment</string>
+    <string name="label_tagRegisterFragment">Register_Fragment</string>
+    <string name="label_errorEmail">Enter valid email!</string>
+    <string name="label_errorName">Enter valid name!</string>
+    <string name="label_errorPassword">Enter your password!</string>
+    <string name="label_errorNoMatch">The provided email/password do not match!</string>
+    <string name="label_errorValidAccount">Enter valid account !!</string>
+    <string name="label_errorNoUser">No user with this email!</string>
+    <string name="label_errorInValidAccount">Provided account is invalid!</string>
+    <string name="label_errorEmailExists">Email provided already taken by another account. Choose another email!</string>
+    <string name="label_error_email_format">Enter email address in the correct format!</string>
+
 
 </resources>
