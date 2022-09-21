@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Main Activity</string>
+    <string name="label_btn_generate">Generate</string>
+    <string name="label_tv_complexity">Select Complexity</string>
+    <string name="label_average_title">Average: </string>
+    <string name="label_times">Times </string>
+    <string name="label_zero">0</string>
+    <string name="label_slash">/</string>
+</resources>
