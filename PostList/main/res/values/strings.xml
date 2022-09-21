@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HW05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_etEmail">Email</string>
+    <string name="label_etPassword">Password</string>
+    <string name="label_tvAccountName">Name</string>
+    <string name="label_post_hint">Enter Post</string>
+    <string name="label_post_create">Create Post</string>
+    <string name="label_btnLogin">Login</string>
+    <string name="label_btnLogout">Logout</string>
+    <string name="label_btnCreateAccount">Create New Account</string>
+    <string name="label_btnLogOut">Log Out</string>
+    <string name="label_tagLoginFragment">Login_Fragment</string>
+    <string name="label_tagRegisterFragment">Register_Fragment</string>
+    <string name="label_tagCreatePostFragment">Create_Post_Fragment</string>
+    <string name="label_tagPostListFragment">Posts_List_Fragment</string>
+    <string name="label_errorEmail">Enter valid email!</string>
+    <string name="label_errorName">Enter valid name!</string>
+    <string name="label_errorPassword">Enter your password!</string>
+    <string name="label_button_submit">Submit</string>
+    <string name="label_button_cancel">Cancel</string>
+    <string name="label_login_fragment_title">Login</string>
+    <string name="label_register_fragment_title">Create New Account</string>
+    <string name="label_posts_fragment_title">Posts</string>
+    <string name="label_createposts_fragment_title">Create Post</string>
+    <string name="user_id">user_id</string>
+    <string name="username">user_fullname</string>
+    <string name="token">token</string>
+    <string name="message">message</string>
+    <string name="welcome">Welcome</string>
+</resources>
