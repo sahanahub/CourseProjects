@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="msgWelcome">Welcome!!</string>
+    <string name="tvName">Name:</string>
+    <string name="tvEmail">Email:</string>
+    <string name="tvID">ID:</string>
+    <string name="nameHint">Enter Name</string>
+    <string name="emailHint">Enter Email</string>
+    <string name="idHint">Enter ID</string>
+    <string name="tvDept">Dept:</string>
+    <string name="btnDept">Select</string>
+    <string name="btnWelcome">Register</string>
+    <string name="rbCS">Computer Science</string>
+    <string name="rbSis">Software Info. Systems</string>
+    <string name="rbBio">Bio Informatics</string>
+    <string name="rbDS">Data Science</string>
+    <string name="btnDeptSelect">Select</string>
+    <string name="btnDeptCancel">Cancel</string>
+    <string name="btnRegSubmit">Submit</string>
+    <string name="regErrorMain">Please Enter All the Data</string>
+    <string name="regErrorName">Please Enter Name</string>
+    <string name="regErrorEmail">Please Enter Email</string>
+    <string name="regErrorId">Please Enter ID</string>
+    <string name="regErrorDept">Please Select Department</string>
+    <string name="regErrorCancel">Department Not Selected</string>
+    <string name="KEY_DEPT">DeptResult</string>
+    <string name="KEY_USER">UserObj</string>
+    <string name="regErrorEmailValid">Please Enter Email Valid</string>
+
+</resources>
